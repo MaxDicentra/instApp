@@ -1,0 +1,377 @@
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Roles System.Linq.Enumerable+<ExceptIterator>d__80`1[System.String] added for user MaxDFlawless.
+Roles System.Linq.Enumerable+<ExceptIterator>d__80`1[System.String] removed from MaxDFlawless.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Role "user" was added for user MaxDFlawless.
+Role "admin" was removed from user MaxDFlawless.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Failed executing DbCommand (243ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Coment], [p].[Photo], [p].[UserName]
+FROM [Posts] AS [p]
+An exception occurred while iterating over the results of a query for context type 'instagram.Models.InstContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Coment'.
+Invalid column name 'Photo'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:2e3f3f1e-41b4-4524-835d-b865180867f6
+Error Number:207,State:1,Class:16
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Failed executing DbCommand (99ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Coment], [p].[UserName]
+FROM [Posts] AS [p]
+An exception occurred while iterating over the results of a query for context type 'instagram.Models.InstContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Coment'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:4422354b-fe4c-40c8-b58d-63b4527de510
+Error Number:207,State:1,Class:16
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Failed executing DbCommand (1,600ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+DROP DATABASE [userdb];
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Role "admin" was added for user admin.
+Role "user" was added for user admin.
+Role "user" was added for user MaxFlawless.
+Role "user" was added for user justUser.
+Role "user" was added for user user2.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+An unhandled exception has occurred while executing the request.
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+An unhandled exception has occurred while executing the request.
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Production
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Production
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Connection ID "18302628900129210527", Request ID "800000a0-0003-fe00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+User eb367aef-63d5-484e-acb6-5be849025d65 validation failed: DuplicateUserName.
+Connection ID "18158513707758387295", Request ID "80000060-0002-fc00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Production
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Connection ID "18374686485577203713", Request ID "80000002-0001-ff00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Production
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Connection ID "18374686485577203719", Request ID "80000008-0001-ff00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Production
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Connection ID "18230571306091282437", Request ID "80000006-0003-fd00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Production
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Production
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Production
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Production
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Production
+Content root path: D:\3_course\inst\sykablyat\instagram\instagram
